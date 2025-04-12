@@ -6,3 +6,4 @@ def mostrar_bienvenida():
 print("=======================================")
 print(" ¡Bienvenido al juego de Adivina el Número ejercicio en grupo! ")
 print("=======================================\n")
+
