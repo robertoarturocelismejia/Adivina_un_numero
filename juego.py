@@ -1,13 +1,13 @@
 # juego.py
 from utils import generar_numero_aleatorio
 def jugar():
- print("Estoy pensando en un número del 1 al 10. ¿Puedes adivinarlo?")
+ print("Estoy pensando en un número del 1 al 10. ¿Puedes adivinarlo? te reto!")
  numero_secreto = generar_numero_aleatorio(1, 10)
  intentos = 0
  while True:
  respuesta = input("Ingresa tu número: ")
  if not respuesta.isdigit():
- print("Por favor, ingresa un valor numérico.")
+ print("Por favor, ingresa cualquier valor numérico.")
  continue
  numero_ingresado = int(respuesta)
  intentos += 1
