@@ -12,11 +12,11 @@ def jugar():
  numero_ingresado = int(respuesta)
  intentos += 1
  if numero_ingresado < numero_secreto:
- print("Demasiado bajo, intenta de nuevo.\n")
+ print("Demasiado bajo, intenta de nuevo por favor.\n")
  elif numero_ingresado > numero_secreto:
- print("Demasiado alto, intenta de nuevo.\n")
+ print("Demasiado alto, intenta de nuevo por favor.\n")
  else:
- print(f"¡Felicidades! Adivinaste el número en {intentos} intento(s).")
+ print(f"¡Felicidades! Adivinaste el número en {intentos} # de intento(s).")
  break
 def despedida():
  print("\nGracias por jugar. ¡Hasta la próxima!")
