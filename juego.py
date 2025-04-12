@@ -5,7 +5,7 @@ def jugar():
  numero_secreto = generar_numero_aleatorio(1, 10)
  intentos = 0
  while True:
- respuesta = input("Ingresa tu número: ")
+ respuesta = input("Ingresa tu número por favor: ")
  if not respuesta.isdigit():
  print("Por favor, ingresa cualquier valor numérico.")
  continue
